@@ -3,7 +3,7 @@
 import requests
 import json
 from sys import argv
-from posao.TableParser import TableParser
+from src.TableParser import TableParser
 
 
 
