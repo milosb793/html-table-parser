@@ -17,9 +17,13 @@ Script can be run from terminal with params. Example:
 
 * To make POST request with params, you need to do following:
 `url = "http://example.com/table"`
+
 `payload = json.dumps({"username":"user1","pass":"ex@mp1e"})`
+
 `headers` are in TableParser class
+
 `verify` flag is set in TableParser class, if is set as True, it will check certificates if there is https request. Else, if is set to False, it will bypass checking. 
+_(check example in __main__ )_
 
 ## Other ##
 
@@ -29,3 +33,6 @@ Thank you
 
 
 
+### TO DO ###
+- Make GUI and table preview
+- Make options for save in different format: json, xls, plain text, sql
