@@ -50,7 +50,7 @@ class TableParser():
         self.body = self.bodyAsList()
         self.number_of_cells_per_row = self.numberOfCellsPerRow()
         self.number_of_rows = len(self.body)
-        self.full_table = self.header + self.bodyAsList()
+        self.full_table = self.header + self.body
         self.max_length_of_cell = self.maxLengthOfCell()
 
     def headerAsList(self):
