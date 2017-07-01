@@ -21,5 +21,12 @@ else:
     # url = "https://www.w3schools.com/html/html_tables.asp"
     # dummy_obj = TableParser(url=url, selector="id", value="customers")
 
+    ### POST example ###
+    # url = "http://example.com/table"
+    # data = json.dumps({"username":"user1","pass":"ex@mp1e"})
+    # selector = "id"
+    # value = "table-example"
+    # dummy_obj = TableParser(url=url, data_post=data, selector=selector, value=value)
+
 
 print(dummy_obj.printTable())
